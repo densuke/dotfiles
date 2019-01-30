@@ -31,7 +31,7 @@ if [ "${NEED}" ]; then
 fi
 
 if [ -d "${PREFIX}" ]; then
- err "prefix(${PREFIX}") is already exists."
+ err "prefix(${PREFIX})is already exists."
 fi
 
 git clone "${REPOS}" "${PREFIX}"
