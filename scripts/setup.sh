@@ -36,7 +36,7 @@ fi
 
 git clone "${REPOS}" "${PREFIX}"
 cd "${PREFIX}"
-git remote origin --push-url "${PUSH}"
+git remote set-url --push origin "${PUSH}"
 info "changed push method using ssh"
 
 make all
